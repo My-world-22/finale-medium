@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.top-bar {
+    background-color: #FFC017;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 7vh;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    justify-content: space-around;
+    justify-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 5;
+}
+
+
+.logo {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    cursor: pointer;
+}
+
+.logo img {
+    display: flex;
+    height: 70%;
+}
+
+.null {
+    width: 30%;
+    height: 30%;
+}
+
+.button-link {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.link-button {
+    cursor: pointer;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.single-button {
+    background-color: rgba(25, 25, 25, 1);
+    color: white;
+    list-style: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.single-button:hover {
+    transition: 1s;
+    background-color: #000000;
+}
+
+.invito {
+    display: flex;
+    width: 100%;
+    background-color: #FFC017;
+    height: 50vh;
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
+}
+
+.title {
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    width: 700px;
+}
+
+.title h2 {
+    font-size: 106px;
+    margin: 0;
+}
+
+.title h3 {
+    font-size: 25px;
+}
+
+.main {
+    height: 100vh;
+}
+
+.trending {
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 50vh;
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
+}
+
+.logo-scritta {
+    width: 100%;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.opinioni {
+    display: flex;
+    height: 33.333%;
+    width: 33.333%;
+    margin-bottom: 5%;
+
+}
+
+.fot {
+    height: 50px;
+    width: 50px;
+}
+
+.num {
+    display: flex;
+}
+
+.num {
+    font-size: 35px;
+    color: gray;
+}
+
+.fot img {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    overflow: hidden
+}
+
+.raccolta {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-evenly;
+}
+
+.dimensionare {
+    display: flex;
+}
+
+.dimensionare h3,
+h4 {
+    margin: 0;
+}
+
+.dimensionare-s {
+    display: flex;
+}
+
+.star {
+    margin-left: 9%;
+    cursor: pointer;
+}
+
+.content {
+    height: 100%;
+    width: 70%;
+    flex-wrap: wrap;
+    align-content: stretch;
+    display: flex;
+    position: relative;
+}
+
+
+.logo-dice {
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 45px;
+}
+
+.logo-dice h3 {
+    margin: 0;
+}
+
+.container {
+    padding-top: 55px;
+    position: relative;
+}
+
+.content-2 {
+    display: flex;
+}
+
+.fisso {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.side-bar {
+    width: 500px;
+    position: relative;
+    right: 20%;
+}
+
+.scorrevole {
+    position: sticky;
+    height: 500px;
+    width: 500px;
+    top: 100px;
+}
+
+.bottoni {
+    justify-content: center;
+    display: flex;
+    background-color: #F2F2F2;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    font-size: 15px;
+    border-radius: 25px;
+    width: 30%;
+    padding: 5px 15px 5px 15px;
+    margin: 3%;
+    align-items: center;
+}
+
+.bottoni:hover {
+    background-color: #E6E6E6;
+}
+
+.button-start {
+    background-color: rgba(25, 25, 25, 1);
+    color: white;
+    list-style: none;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button-start:hover {
+    background-color: black;
+
+}
+
+.see {
+    display: flex;
+    width: 100%;
+}
+
+.see a {
+    color: rgb(43, 172, 0);
+    text-decoration: none;
+}
+
+.compatti {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 55px;
+}
+
+.aiuti {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.aiuti a {
+    text-decoration: none;
+    color: grey;
+    margin-right: 4%;
+    margin-left: 2%;
+
+}
+
+.save {
+    margin-left: 20%;
+    display: flex;
+    cursor: pointer;
+}
+
+.opinioni-2 {
+    display: flex;
+    height: 33.333%;
+    width: 50%;
+    margin-bottom: 5%;
+}
